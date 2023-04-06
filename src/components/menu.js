@@ -28,12 +28,12 @@ const Menu = () => {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#informacionCompañia">
-                Quienes Somos{" "}
+                Quienes Somos
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="service.html">
-                Calendario{" "}
+                Calendario
               </a>
             </li>
             <li className="nav-item">
