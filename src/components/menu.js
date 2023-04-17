@@ -50,10 +50,16 @@ const Menu = () => {
               </a>
             </li>
             <li className="nav-item">
+              <a className="nav-link" href="#terminos">
+                Terminos y condiciones
+              </a>
+            </li>
+
+            {/* <li className="nav-item">
               <a className="nav-link" href="#">
                 Login
               </a>
-            </li>
+            </li> */}
           </ul>
           <form className="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
             <button

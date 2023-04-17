@@ -1,0 +1,92 @@
+ 
+
+#terminos  {
+   background-color: black;color : white;
+   height: 800px;
+   overflow: auto;
+}
+
+.casso1
+{ color : white}
+
+.frase{
+    font-style: italic;
+    color : #333030;
+}
+.LineaSeparacion{
+    /* border-top: 1px solid #ccc; margin: 2rem 0; */
+   
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, #217834, #333, #217834);
+    /* background:  linear-gradient(to right top, #217834, #3a8a32, #559d2e, #6a7959, #91c018); */
+    margin: 2rem 0;
+}
+
+
+
+
+.parallaxTerminos {
+    height: 700px;
+    background: url('https://zonetravel.s3.us-east-2.amazonaws.com/terminos.jpg') no-repeat fixed center center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .parallax-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -50%);
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .parallax-inner h1 {
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+  
+
+
+  .hr-text {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    color:  white;
+    font-size: 24px;
+    padding-top: 50px;;
+    padding-bottom: 10px;
+  }
+  
+  .hr-text:before  {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid rgb(169, 194, 30);
+    content: attr(data-content);
+  }
+  
+  .hr-text:before {
+    margin-right: 0.5em;
+  }
+  
+  .hr-text:after {
+    margin-left: 0.5em;
+  }
+   .hr-text span {
+    padding: 0 0.5em;
+    background-color: white;
+  }
+
+
+  .texto-central{
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    font-size: 24px;
+    text-align: center;
+    justify-content: center;
+  }

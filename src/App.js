@@ -11,7 +11,7 @@ import Videos from "./components/videos";
 import Galeria from "./components/galeriaExperiencias/galeria";
 import NuestroEquipo from "./components/nuestroEquipo/nuestroEquipo";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
+import TerminosYcondiciones from "./components/terminosYcondiciones/terminosYcondiciones";
 const router = createBrowserRouter([{ path: "/", element: null }]);
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
         <header className="header_section">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-lg-8">
+              <div className="col-lg-11">
                 <Menu></Menu>
               </div>
             </div>
@@ -47,7 +47,7 @@ function App() {
       <Eligenos></Eligenos>
       <NuestroEquipo></NuestroEquipo>
       <OpinionesClientes></OpinionesClientes>
-
+      <TerminosYcondiciones></TerminosYcondiciones>
       <Contactanos></Contactanos>
 
       <Footer></Footer>
