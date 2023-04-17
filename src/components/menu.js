@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Menu = () => {
   return (
     <nav className="navbar navbar-expand-lg custom_nav-container ">
@@ -22,23 +24,29 @@ const Menu = () => {
         <div className="d-flex  flex-column flex-lg-row align-items-center">
           <ul className="navbar-nav  ">
             <li className="nav-item active">
-              <a className="nav-link" href="index.html">
+              <a className="nav-link" href="/">
                 Inicio <span className="sr-only">(current)</span>
               </a>
             </li>
             <li className="nav-item">
+              {/* <Link to={"/"}> Quienes Somos</Link> */}
               <a className="nav-link" href="#informacionCompañia">
                 Quienes Somos
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="service.html">
+              <a className="nav-link" href="#eventos">
                 Calendario
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="contact.html">
+              <a className="nav-link" href="#videosYoutube">
                 Videos
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#nuestroEquipoContainer">
+                Nuestro Personal
               </a>
             </li>
             <li className="nav-item">

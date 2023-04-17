@@ -7,9 +7,16 @@ import Eligenos from "./components/eligenos";
 import OpinionesClientes from "./components/opinionesClientes";
 import Contactanos from "./components/contactanos";
 import Footer from "./components/Footer";
+import Videos from "./components/videos";
+import Galeria from "./components/galeriaExperiencias/galeria";
+import NuestroEquipo from "./components/nuestroEquipo/nuestroEquipo";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+const router = createBrowserRouter([{ path: "/", element: null }]);
 
 function App() {
   return (
+    // <RouterProvider router={router}>
     <div className="App">
       <div className="hero_area">
         <header className="header_section">
@@ -29,14 +36,23 @@ function App() {
 
       <Servicios></Servicios>
 
+      <Videos></Videos>
+      <div id="eventos" className="container-fluid">
+        <div className="row">
+          <div className="col-lg-12">
+            <Galeria></Galeria>
+          </div>
+        </div>
+      </div>
       <Eligenos></Eligenos>
-
+      <NuestroEquipo></NuestroEquipo>
       <OpinionesClientes></OpinionesClientes>
 
       <Contactanos></Contactanos>
 
       <Footer></Footer>
     </div>
+    // </RouterProvider>
   );
 }
 

@@ -506,7 +506,9 @@ a:focus {
 .why_section {
   color: #f9fcfb;
   background: -webkit-gradient(linear, left top, right top, from(#1b3374), to(#8f4fe8));
-  background: linear-gradient(to right, #217834, #91C018);
+  /* background: linear-gradient(to right, #217834, #91C018); */
+  background-image: linear-gradient(to right top, #217834, #3a8a32, #559d2e, #72af26, #91c018);
+
 }
 
 .why_section .custom_heading-container h2 {
