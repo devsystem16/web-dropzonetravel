@@ -173,3 +173,13 @@
     max-width: 1170px;
   }
 }
+
+
+.css-zw3mfo-MuiModal-root-MuiDialog-root {
+  position: fixed;
+   z-index: 9999900; 
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+}

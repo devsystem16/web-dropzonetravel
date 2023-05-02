@@ -4,13 +4,13 @@ import CardPersonal from "./CardTerminos";
 const TerminosYcondiciones = () => {
   return (
     <div className="container-fluid" id="terminos">
-      <section className="parallaxTerminos">
+      {/* <section className="parallaxTerminos">
         <div className="parallax-inner">
           <h1 style={{ color: "white", fontWeight: "bold" }}>
             TERMINOS Y CONDICIONES
           </h1>
         </div>
-      </section>
+      </section> */}
       <section>
         <div></div>
       </section>

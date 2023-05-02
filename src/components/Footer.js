@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="footer_bg">
+    <div id="DropZoneTravelFooter" className="footer_bg">
       <section className="info_section layout_padding2-bottom">
         <div className="container-fluid">
           <h3 className="">Drop Zone Travel</h3>
@@ -10,124 +10,133 @@ const Footer = () => {
             <div className="row">
               <div className="col-md-6 col-lg-4">
                 <div className="d-flex">
-                  <h5>Useful Link</h5>
+                  <h5>GERENCIA</h5>
                 </div>
                 <div className="d-flex ">
                   <ul>
                     <li>
-                      <a href="">About Us</a>
+                      <a href="#DropZoneTravelFooter">Gerente General</a>
+                    </li>
+                    {/* <li>
+                      <a href="#DropZoneTravelFooter">About services</a>
                     </li>
                     <li>
-                      <a href="">About services</a>
+                      <a href="#DropZoneTravelFooter">About Departments</a>
                     </li>
                     <li>
-                      <a href="">About Departments</a>
+                      <a href="#DropZoneTravelFooter">Services</a>
                     </li>
                     <li>
-                      <a href="">Services</a>
-                    </li>
-                    <li>
-                      <a href="">Contact Us</a>
-                    </li>
+                      <a href="#DropZoneTravelFooter">Contact Us</a>
+                    </li> */}
                   </ul>
                   <ul className="ml-3 ml-md-5">
                     <li>
-                      <a href="">Loram ipusm</a>
+                      <a
+                        target="_blank"
+                        href="https://www.facebook.com/JairoIsraelSerrano"
+                      >
+                        Jairo Serrano
+                      </a>
+                    </li>
+                    {/* <li>
+                      <a href="#DropZoneTravelFooter">Loram ipusm</a>
                     </li>
                     <li>
-                      <a href="">Loram ipusm</a>
+                      <a href="#DropZoneTravelFooter">Loram ipusm</a>
                     </li>
                     <li>
-                      <a href="">Loram ipusm</a>
+                      <a href="#DropZoneTravelFooter">Loram ipusm</a>
                     </li>
                     <li>
-                      <a href="">Loram ipusm</a>
-                    </li>
-                    <li>
-                      <a href="">Loram ipusm</a>
-                    </li>
+                      <a href="#DropZoneTravelFooter">Loram ipusm</a>
+                    </li> */}
                   </ul>
                 </div>
               </div>
               <div className="col-md-6 col-lg-4">
                 <div className="d-flex">
-                  <h5>The Services</h5>
+                  <h5>Nuestros Servicios</h5>
                 </div>
                 <div className="d-flex ">
                   <ul>
                     <li>
-                      <a href="">About Us</a>
+                      <a href="#DropZoneTravelFooter">Transporte</a>
                     </li>
                     <li>
-                      <a href="">About services</a>
+                      <a href="#DropZoneTravelFooter">Alimentación</a>
                     </li>
                     <li>
-                      <a href="">About Departments</a>
+                      <a href="#DropZoneTravelFooter">Entrada a los lugares a visitar</a>
                     </li>
                     <li>
-                      <a href="">Services</a>
+                      <a href="#DropZoneTravelFooter">Paseo en lancha</a>
                     </li>
                     <li>
-                      <a href="">Contact Us</a>
+                      <a href="#DropZoneTravelFooter">Seguro de accidente vial</a>
                     </li>
                   </ul>
                   <ul className="ml-3 ml-md-5">
                     <li>
-                      <a href="">Lorem ipsum dolor</a>
+                      <a href="#DropZoneTravelFooter"> Guía</a>
                     </li>
                     <li>
-                      <a href="">sit amet, consectetur</a>
+                      <a href="#DropZoneTravelFooter">Alojamiento</a>
                     </li>
                     <li>
-                      <a href="">adipiscing elit,</a>
+                      <a href="#DropZoneTravelFooter">Asesoramiento</a>
+                    </li>
+                    {/* <li>
+                      <a href="#DropZoneTravelFooter">sed do eiusmod</a>
                     </li>
                     <li>
-                      <a href="">sed do eiusmod</a>
-                    </li>
-                    <li>
-                      <a href="">tempor incididunt</a>
-                    </li>
+                      <a href="#DropZoneTravelFooter">tempor incididunt</a>
+                    </li> */}
                   </ul>
                 </div>
               </div>
               <div className="col-md-6 col-lg-4">
                 <div className="d-flex">
-                  <h5>Contact Us</h5>
+                  <h5>Contactos</h5>
                 </div>
                 <div className="d-flex ">
                   <ul>
                     <li>
-                      <a href="">About Us</a>
+                      <a href="#DropZoneTravelFooter">Correo</a>
                     </li>
                     <li>
-                      <a href="">About services</a>
+                      <a href="#DropZoneTravelFooter">Oficinas</a>
                     </li>
                     <li>
-                      <a href="">About Departments</a>
+                      <a href="#DropZoneTravelFooter">Reservas</a>
+                    </li>
+                    {/* <li>
+                      <a href="#DropZoneTravelFooter">Services</a>
                     </li>
                     <li>
-                      <a href="">Services</a>
-                    </li>
-                    <li>
-                      <a href="">Contact Us</a>
-                    </li>
+                      <a href="#DropZoneTravelFooter">Contact Us</a>
+                    </li> */}
                   </ul>
                   <ul className="ml-3 ml-md-5">
                     <li>
-                      <a href="">Lorem ipsum</a>
+                      <a href="mailto:info@dropzonetravel.com.ec">
+                        <span id="et-info-email">
+                          info@dropzonetravel.com.ec
+                        </span>
+                      </a>
                     </li>
                     <li>
-                      <a href="">dolor sit amet,</a>
+                      <a href="#DropZoneTravelFooter">022370853</a>
                     </li>
                     <li>
-                      <a href="">consectetur</a>
+                      <a href="#DropZoneTravelFooter">0995193959</a>
+                    </li>
+                    {/* <li>
+                      <a href="#DropZoneTravelFooter">adipiscing</a>
                     </li>
                     <li>
-                      <a href="">adipiscing</a>
-                    </li>
-                    <li>
-                      <a href="">elit, sed do eiusmod</a>
-                    </li>
+                      <a href="#DropZoneTravelFooter">elit, sed do eiusmod</a>
+                    </li> */}
                   </ul>
                 </div>
               </div>
@@ -142,14 +151,14 @@ const Footer = () => {
               <a href="https://twitter.com/dropzonetravel">
                 <img src="images/twitter.png" alt="" />
               </a>
-              {/* <a href="">
+              {/* <a href="#DropZoneTravelFooter">
                 <img src="images/linkedin1.png" alt="" />
               </a> */}
               <a href="https://www.instagram.com/dropzonetravel593/">
                 <img src="images/instagram1.png" alt="" />
               </a>
             </div>
-            <div className="form_container mt-5">
+            {/* <div className="form_container mt-5">
               <form action="">
                 <label for="subscribeMail">Newsletter</label>
                 <input
@@ -159,15 +168,15 @@ const Footer = () => {
                 />
                 <button type="submit">Subscribe</button>
               </form>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
 
       <section className="container-fluid footer_section">
         <p>
-          © 2019 All Rights Reserved By
-          <a href="https://html.design/">Free Html Templates</a>
+          © Drop Zone Travel 2023 Todos los derechos reservados
+          {/* <a href="https://html.design/">Free Html Templates</a> */}
         </p>
       </section>
     </div>

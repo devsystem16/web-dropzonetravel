@@ -1,4 +1,18 @@
+import React, { useState, useEffect } from "react";
+import API from "../Environment/config";
+
 const Eligenos = () => {
+  const [cantidadClientes, setCantidadClient] = useState(1);
+
+  const loadData = async () => {
+    var response = await API.get("/cliente/count/obtener");
+    setCantidadClient(response.data);
+  };
+
+  useEffect(() => {
+    loadData();
+  }, [cantidadClientes]);
+
   return (
     <section className="why_section layout_padding">
       <div className="container-fluid">
@@ -21,7 +35,7 @@ const Eligenos = () => {
               </div>
               <div className="detail-box">
                 <h3>99%</h3>
-                <h6>SATISFIED CLIENTS</h6>
+                <h6>CLIENTES SATISFECHOS</h6>
               </div>
             </div>
             <div className="col-md-3 col-sm-6">
@@ -30,7 +44,7 @@ const Eligenos = () => {
               </div>
               <div className="detail-box">
                 <h3>4700+</h3>
-                <h6>AWESOME planing</h6>
+                <h6>planificación IMPRESIONANTE</h6>
               </div>
             </div>
             <div className="col-md-3 col-sm-6">
@@ -38,7 +52,7 @@ const Eligenos = () => {
                 <img src="images/multiple-users-silhouette.png" alt="" />
               </div>
               <div className="detail-box">
-                <h3>4500+</h3>
+                <h3>{cantidadClientes}+</h3>
                 <h6>CLIENTS</h6>
               </div>
             </div>
@@ -47,8 +61,8 @@ const Eligenos = () => {
                 <img src="images/bar-chart.png" alt="" />
               </div>
               <div className="detail-box">
-                <h3>19000+</h3>
-                <h6>DAILY business</h6>
+                <h3>100+</h3>
+                <h6>DESTINOS</h6>
               </div>
             </div>
           </div>

@@ -4,7 +4,7 @@ const OpinionesClientes = () => {
       <div className="container-fluid">
         <h2>Que Opinan nuestros clientes</h2>
         <div
-          id="carouselExampleControls"
+          id="carouselExampleControls1"
           className="carousel slide"
           data-ride="carousel"
         >
@@ -86,7 +86,7 @@ const OpinionesClientes = () => {
           </div>
           <a
             className="carousel-control-prev"
-            href="#carouselExampleControls"
+            href="#carouselExampleControls1"
             role="button"
             data-slide="prev"
           >
@@ -94,7 +94,7 @@ const OpinionesClientes = () => {
           </a>
           <a
             className="carousel-control-next"
-            href="#carouselExampleControls"
+            href="#carouselExampleControls1"
             role="button"
             data-slide="next"
           >

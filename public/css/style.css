@@ -214,7 +214,7 @@ a:focus {
 }
 
 .custom_nav-container {
-  z-index: 99999;
+  /* z-index: 99999; */
   padding: 5px 0;
   background-color: #22212180;
   border-radius: 10px;
@@ -422,7 +422,7 @@ a:focus {
 }
 
 .service_section .service_container .service_box {
-  width: 30%;
+  width: 20%;
   min-width: 300px;
   margin: 35px 15px;
 }
@@ -433,7 +433,8 @@ a:focus {
 }
 
 .service_section .service_container .service_box .img-box img {
-  width: 100%;
+  width: 70%;
+  border-radius: 10px;
 }
 
 .service_section .service_container .service_box .detail-box {
@@ -938,4 +939,6 @@ a:focus {
 
 }
 
+ 
+ 
  

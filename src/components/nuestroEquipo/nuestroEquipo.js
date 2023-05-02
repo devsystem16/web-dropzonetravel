@@ -1,16 +1,17 @@
 import React from "react";
 import "./nuestroEquipo.css";
 import CardPersonal from "./CardPersonal";
+
 const NuestroEquipo = () => {
   return (
     <div className="container-fluid" id="nuestroEquipoContainer">
-      <section className="parallax">
+      {/* <section className="parallax">
         <div className="parallax-inner">
           <h1 style={{ color: "white", fontWeight: "bold" }}>
             VEN Y CONOCE A NUESTRO EQUIPO.
           </h1>
         </div>
-      </section>
+      </section> */}
       <section>
         <div></div>
       </section>

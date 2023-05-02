@@ -1,0 +1,80 @@
+ 
+
+.cartour-title{
+    color: rgb(233, 229, 229);
+    font-weight: bold;
+    font-size: 40px;
+    background-image: radial-gradient(circle, #217834, #3a8a32, #559d2e, #72af26, #91c018);
+
+    
+}
+ 
+.negrita{
+    font-weight: bold;
+}
+ 
+
+.cartour-title {
+    font-size: 40px;
+    text-align: center;
+    animation: move 2s linear infinite alternate;
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+
+@keyframes wipe-in-down {
+    from {
+      clip-path: inset(0 0 100% 0);
+    }
+    to {
+      clip-path: inset(0 0 0 0);
+    }
+  }
+  
+  [transition-style="in:square:center"] {
+    animation: 2.5s cubic-bezier(.25, 1, .30, 1) wipe-in-down both;
+  }
+ 
+.cardTour-content-text{
+    font-size: 19px;
+    color: rgb(43, 42, 42);
+}
+
+.margen {
+    margin-bottom:20px;
+}
+  .cardTour-duracion, 
+  .cardTour-detalles,
+  .cardTour-incluye{
+    margin-bottom:20px;
+
+  }
+.cardTour-duracion{
+
+    font-weight: bold;
+ 
+}
+
+.cardTour-detalles{
+    text-align: justify;
+ 
+}
+
+.cardTour-incluye{
+    margin-bottom:20px;
+}
+
+.cardTour-lugarSalida{
+    margin-bottom:20px;
+}

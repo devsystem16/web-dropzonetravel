@@ -23,7 +23,7 @@ const Slider = () => {
                       inolvidable.
                     </p>
                     <div className="btn-box">
-                      <a href="" className="btn-1">
+                      <a href="#informacionCompañia" className="btn-1">
                         Conocer más
                       </a>
                     </div>
@@ -52,7 +52,7 @@ const Slider = () => {
                       planes de viaje.
                     </p>
                     <div className="btn-box">
-                      <a href="" className="btn-1">
+                      <a href="#informacionCompañia" className="btn-1">
                         Conocer más
                       </a>
                     </div>
@@ -78,7 +78,7 @@ const Slider = () => {
                       experiencia inolvidable.
                     </p>
                     <div className="btn-box">
-                      <a href="" className="btn-1">
+                      <a href="#informacionCompañia" className="btn-1">
                         Conocer más
                       </a>
                     </div>

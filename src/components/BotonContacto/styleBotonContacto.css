@@ -1,0 +1,49 @@
+.botonContactos
+{
+    z-index: 99;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+ 
+}
+
+
+.botonContactos {
+ 
+  animation-name: bounce;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+ /* .botonContactos {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: cambiaColor 1s infinite alternate;
+  } */
+
+
+@keyframes cambiaColor {
+    from {
+      background-color: blue;
+    }
+    to {
+      background-color: green;
+    }
+  }
